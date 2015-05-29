@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">СВИС</string>
+
+    <string name="button1">Скупштина општине</string>
+    <string name="button0">Општинско веће</string>
+    <string name="sedbroj">Број седнице</string>
+    <string name="izvestilac">Известилац</string>
+
+    <string name="arhiva">Архива</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_dnevni_red">Дневни ред</string>
+    <string name="title_activity_tacka">Тачка дневног реда</string>
+    <string name="title_activity_prilog">Прилог</string>
+    <string name="title_activity_arhiva">Архива</string>
+    <string name="title_activity_sednice">Седнице</string>
+
+    <string name="network_error">Неуспело повезивање на интернет, проверити доступност мреже</string>
+    <string name="title_activity_zoomable_view">ZoomableView</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

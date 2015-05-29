@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.logotet.androsvis" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/svtgrb"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SedniceActivity"
+            android:label="@string/title_activity_sednice" >
+        </activity>
+        <activity
+            android:name=".DnevniRedActivity"
+            android:label="@string/title_activity_dnevni_red" >
+        </activity>
+        <activity
+            android:name=".TackaActivity"
+            android:label="@string/title_activity_tacka" >
+        </activity>
+        <activity
+            android:name=".PrilogActivity"
+            android:label="@string/title_activity_prilog" >
+        </activity>
+        <activity
+            android:name=".ArhivaActivity"
+            android:label="@string/title_activity_arhiva" >
+        </activity>
+    </application>
+
+</manifest>

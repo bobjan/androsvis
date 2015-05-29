@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical"
+    tools:context="com.logotet.androsvis.SedniceActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+             <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/svtskupstina"
+            android:layout_marginTop="0dp"
+            android:id="@+id/as_iv_headerImage" />
+
+            <Button
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:fontFamily="calibri"
+        android:visibility="invisible"
+        android:id="@+id/as_bt_sednica0"
+        android:background="@drawable/roundedbutton"
+        />
+            <Button
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="calibri"
+        android:visibility="invisible"
+        android:background="@drawable/roundedbutton"
+        android:id="@+id/as_bt_sednica1"/>
+            <Button
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/arhiva"
+        android:textSize="20sp"
+        android:fontFamily="calibri"
+        android:visibility="invisible"
+        android:background="@drawable/roundedbutton"
+        android:id="@+id/as_bt_arhiva"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

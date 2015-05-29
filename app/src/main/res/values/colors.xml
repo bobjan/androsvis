@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="svred">#ed1d24</color>
+    <color name="svgreen">#007e43</color>
+    <color name="svdark">#404042</color>
+    <color name="svoker">#f2be1a</color>
+    <color name="svlightoker">#ffedc0</color>
+    <color name="svblack">#000000</color>
+    <color name="svgrey">#aaaaaa</color>
+    <color name="white">#ffffff</color>
+</resources>
