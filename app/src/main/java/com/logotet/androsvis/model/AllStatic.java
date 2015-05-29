@@ -1,9 +1,5 @@
 package com.logotet.androsvis.model;
 
-import com.logotet.androsvis.model.Prilog;
-import com.logotet.androsvis.model.Sednica;
-import com.logotet.androsvis.model.Tacka;
-
 import java.util.List;
 import java.util.concurrent.Semaphore;
 
