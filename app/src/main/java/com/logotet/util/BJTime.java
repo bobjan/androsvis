@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 /**
  * kreirano:
  * Date: Oct 9, 2007
- * Time: 11:06:21 AM
+ * 
  */
 public class BJTime {
     private int hour;
